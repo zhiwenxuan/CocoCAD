@@ -23,11 +23,11 @@ output += '  <div id="main">\n';
 output += '    <nav class="navbar" id="top-navigation-bar">\n';
 output += '      <div class="container-fluid">\n';
 output += '      <div class="navbar-center">\n';
-output += '        <a href="#" class="pull-left mar-top5"><img src="imgs/cologo.png" style="max-height:60px">CocoCAD</a>\n';
+output += '        <a href="#" class="pull-left mar-top5"><img src="imgs/cologo.png" style="max-height:60px"></a>\n';
 
 output += '        <div class="project-name-wrapper">';
 output += '             <input type="text" id="project-name" class="project-name-input" placeholder="Project name" maxlength="28" style="min-width: 120px;">'
-output += '             <i class="material-icons mdl-color-text--white pro-name-edit" style="font-size: 30px">create</i>';
+output += '             <img src="imgs/pro-name-edit.png" class="pro-name-edit"/>';
 output += '        </div>';
 output += '        <ul class="nav navbar-nav">\n';
 // output += '          <li class="dropdown vc">\n';
