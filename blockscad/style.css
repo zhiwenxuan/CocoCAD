@@ -691,3 +691,10 @@ a.dropdown-toggle {
 .blocklySvg{
 	width: 60%;
 }
+.blocklyZoom{
+	transform:translate(760,200) !important;
+	z-index: 100;
+}
+.blocklyToolboxDiv{
+	left:0 !important;
+}

@@ -458,7 +458,8 @@ Blockly.Css.CONTENT = [
   '}',
 
   '.blocklyTreeRoot {',
-  '  padding: 2px 0;',
+  '  padding: 0;',
+  '  margin-top: -2px;',
   '}',
 
   '.blocklyTreeRoot:focus {',
