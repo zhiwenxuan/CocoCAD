@@ -11,6 +11,9 @@ a{
 a:hover{
 	text-decoration: none;
 }
+a:active{
+	text-decoration: none;
+}
 #main {
     position: relative;
     z-index: 99;
@@ -595,7 +598,6 @@ a.dropdown-toggle {
 	width: 60px;
 	text-align: center;
 	line-height: 36px;
-	background-color: #eee;
 	border-radius: 6px;
 	border-bottom-right-radius: 0;
 	border-bottom-left-radius: 0;
@@ -605,7 +607,8 @@ a.dropdown-toggle {
 	border-bottom: 0;
 }
 #displayCode{
-	transform: translateX(61px);
+	transform: translateX(60px);
+	border-bottom: 1px solid lightgrey;
 }
 #undoButton, #redoButton, #trashButton {
 	position: absolute;
@@ -757,6 +760,7 @@ a.dropdown-toggle {
 
 #global {
 	font-size: 40px;
+	margin-top: -10px;
 }
 
 .dropdown-toggle {
