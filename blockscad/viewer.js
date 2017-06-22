@@ -1367,7 +1367,8 @@ Blockscad.Processor.prototype = {
     this.setError("");
     this.clearViewer();
     this.processing = true;
-    $( '#renderButton' ).html(Blockscad.Msg.RENDER_BUTTON);
+    // $( '#renderButton' ).html(Blockscad.Msg.RENDER_BUTTON);
+    $('#renderButton').html('<i class="material-icons mdl-color-text--white" style="font-size: 30px">play_arrow</i></button>');
     $( '#renderButton' ).prop('disabled', false);
     this.enableItems();
     var that = this;

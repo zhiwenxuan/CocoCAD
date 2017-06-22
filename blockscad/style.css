@@ -132,6 +132,7 @@ a:active{
 	overflow: hidden;
 	background-color: #fff;
 	box-shadow: 3px 5px 8px #ccc;
+	padding: 5px;
 }
 .paneButtonWrapper{
 	height: auto;
