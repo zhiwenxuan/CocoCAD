@@ -755,4 +755,11 @@ a.dropdown-toggle {
 	margin: 0;
 }
 
+#global {
+	font-size: 40px;
+}
+
+.dropdown-toggle {
+	padding: 0;
+}
 

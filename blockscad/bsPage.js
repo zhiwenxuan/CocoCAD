@@ -35,7 +35,7 @@ output += '        <ul class="nav navbar-nav">\n';
 // output += '          </li>\n';
 // output += '          <li><a " href="https://youtu.be/5RNKVn7lijM" target="_blank"> <img src="imgs/youtube_logo.png" alt="Youtube" width="100" height="50"></a></li>\n';
 output += '          <li class="dropdown">\n';
-output += '            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="imgs/globe.png" style="width:20px"></a>\n';
+output += '            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i id="global" class="material-icons mdl-color-text--white">language</i></a>\n';
 output += '            <ul id="languageMenu" class="dropdown-menu" role="menu">\n';
 output += '            </ul>\n';
 output += '          </li>\n';
