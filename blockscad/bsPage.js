@@ -23,7 +23,7 @@ output += '  <div id="main">\n';
 output += '    <nav class="navbar" id="top-navigation-bar">\n';
 output += '      <div class="container-fluid">\n';
 output += '      <div class="navbar-center">\n';
-output += '        <a href="#" class="pull-left mar-top5"><img src="imgs/cologo.png" style="max-height:60px">CocoCAD</a>\n';
+output += '        <a href="#" class="pull-left mar-top5"><img src="imgs/cologo.png" style="max-height:60px"> </a>\n';
 
 output += '        <div class="project-name-wrapper">';
 output += '             <input type="text" id="project-name" class="project-name-input" placeholder="Project name" maxlength="28" style="min-width: 120px;">'
@@ -126,13 +126,13 @@ output += '      <a href="#openScadPre" data-toggle="pill" id="displayCode">' + 
 
 
 output += '      <button type="button" class="btn btn-default mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent" id="undoButton" style="margin-right: -5px">\n';
-output += '         <i class="material-icons mdl-color-text--white" style="font-size: 30px">undo</i>\n';
+output += '         <i class="material-icons mdl-color-text--white" style="font-size: 24px">undo</i>\n';
 output += '      </button>\n';
 output += '      <button type="button" class="btn btn-default btn btn-default mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent" id="redoButton" style="margin-right: 20px">\n';
-output += '         <i class="material-icons mdl-color-text--white" style="font-size: 30px">redo</i>\n';
+output += '         <i class="material-icons mdl-color-text--white" style="font-size: 24px">redo</i>\n';
 output += '      </button>\n';
 output += '      <button id="trashButton" class="btn btn-default notext mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--red-700" title="' + Blockscad.Msg.MOUSEOVER_TRASHCAN + '">\n';
-output += '         <i class="material-icons mdl-color-text--white" style="font-size: 30px">delete</i>\n';
+output += '         <i class="material-icons mdl-color-text--white" style="font-size: 24px">delete</i>\n';
 output += '      </button>\n';
 
 output += '      <!-- End of the header content -->\n';
