@@ -590,13 +590,19 @@ a.dropdown-toggle {
 #displayBlocks, #displayCode{
 	position: absolute;
 	left: 142px;
-	top: -36px;
+	top: -35.5px;
 	height: 36px;
 	width: 60px;
 	text-align: center;
 	line-height: 36px;
 	background-color: #eee;
 	border-radius: 6px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+	z-index: 500;
+	background-color: white;
+	border: 1px solid lightgrey;
+	border-bottom: 0;
 }
 #displayCode{
 	transform: translateX(61px);
@@ -724,6 +730,7 @@ a.dropdown-toggle {
 }*/
 .btn-default {
 	border: none;
+	box-shadow: inset 0 0 0 rgba(255,255,255,.15), 0 0 0 rgba(0,0,0,.075);
 }
 
 .btn {

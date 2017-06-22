@@ -191,7 +191,7 @@ output += '                  </div>\n';
 
 output += '                  <div class="btn-group">\n';
 output += '                    <button id="zInButton" type="button" title="' + Blockscad.Msg.ZOOM_IN_BUTTON + '" class="btn vbut btn-default">\n';
-output += '                        <i class="material-icons mdl-color-text--grey-600" style="font-size: 25px">zoom_in</i>'
+output += '                        <i class="material-icons mdl-color-text--grey-600" style="font-size: 30px">zoom_in</i>'
 // output += '                     <svg viewbox="0 0 30 30">\n';
 // output += '                      <circle r="14" style="stroke:#777;stroke-width:1.6;fill:none" cx="15" cy="15"/>\n';
 // output += '                      <path style="stroke:#555;stroke-width:1.6;fill:none" d="m15 8v14"/>\n';
@@ -199,7 +199,7 @@ output += '                        <i class="material-icons mdl-color-text--grey
 // output += '                     </svg>\n';
 output += '                    </button>\n';
 output += '                    <button id="zOutButton" type="button" title="' + Blockscad.Msg.ZOOM_OUT_BUTTON + '" class="btn vbut btn-default">\n';
-output += '                        <i class="material-icons mdl-color-text--grey-600" style="font-size: 25px">zoom_out</i>'
+output += '                        <i class="material-icons mdl-color-text--grey-600" style="font-size: 30px">zoom_out</i>'
 // output += '                     <svg viewbox="0 0 30 30">\n';
 // output += '                      <circle r="14" style="stroke:#777;stroke-width:1.6;fill:none" cx="15" cy="15"/>\n';
 // output += '                      <path style="stroke:#555;stroke-width:1.6;fill:none" d="m8 15h14"/>\n';
@@ -228,7 +228,7 @@ output += '                         <option value="bottom">' + Blockscad.Msg.DIR
 output += '                     </select>\n';
 output += '                  </div>\n';
 output += '                  <button type="button" id="cameraButton" class="btn vbut btn-default">\n';
-output += '                     <img src="imgs/cameraSmall.png">\n';
+output += '                     <i class="material-icons mdl-color-text--grey-600" style="font-size: 30px">camera_alt</i>\n';
 output += '                  </button>\n';
 output += '                </div>\n';   // end of viewerButtons div
 
