@@ -31,7 +31,7 @@ a:active{
     border: 10;
     margin: 0;
     width: 100%;
-    height: 450px !important;
+    height: 480px !important;
     min-height: 100%;
     outline: none;
     z-index: 400;
@@ -80,7 +80,6 @@ a:active{
 	z-index: 300;
 	top: 0px !important;
 	right:  12px;
-	border: 1px solid #cccccc;
     width: 36%;
     height: 100%;
 }
@@ -90,8 +89,12 @@ a:active{
 	top: 0;
 	right: 0;
 	left: 0;
-	bottom: 128px;
+	bottom: 150px;
 	overflow: hidden;
+	box-shadow: 3px 5px 8px #A9A9A9;
+}
+#renderDiv>div{
+	height: 99%;
 }
 #renderPane {
 	position: absolute;
@@ -124,9 +127,15 @@ a:active{
 #paneContainer {
 	position: absolute;
 	width: 100%;
-	height: 100%;
+	height: 130px;
+	bottom: 0;
 	overflow: hidden;
-	background-color: #ffffff;
+	background-color: #fff;
+	box-shadow: 3px 5px 8px #ccc;
+}
+.paneButtonWrapper{
+	height: auto;
+	background-color: #fff;
 }
 /*.changeable {
 	display: inline-block;
@@ -283,11 +292,6 @@ a:active{
 
 /* override bootstrap css */
 
-#top-navigation-bar {
-	height: 80px;
-    margin-bottom: 60px;
-    background-color: blue;
-}
 .tab-content {
 	position: relative;
 }
@@ -298,6 +302,7 @@ a:active{
 .tab-content>.active {
   display: block;
   visibility: visible;
+  background-color: #fff;
 }
 
 .dropdown-toggle {
@@ -570,8 +575,9 @@ input.search:focus {
 
 #top-navigation-bar {
     /*remove navbar-default*/
+    height: 60px;
+    margin-bottom: 0px;
     background-color: #3C78D8;
-    margin-bottom: 60px;
     border-radius: 0;
 }
 a.dropdown-toggle {
@@ -585,15 +591,10 @@ a.dropdown-toggle {
 .nav > li > a:hover{
     background-color:#4B6DB4;
 }
-#editView{
-	position: relative;
-	padding: 0 20px;
-	box-sizing: content-box;
-}
 #displayBlocks, #displayCode{
 	position: absolute;
-	left: 142px;
-	top: -35.5px;
+	left: 148px;
+	top: 24.5px;
 	height: 36px;
 	width: 60px;
 	text-align: center;
@@ -613,7 +614,7 @@ a.dropdown-toggle {
 #undoButton, #redoButton, #trashButton {
 	position: absolute;
 	left: 42%;
-	top:-25px;
+	top:40px;
 	z-index: 100;
 	height: 50px;
 	width: 50px;
@@ -654,15 +655,16 @@ a.dropdown-toggle {
 
 .navbar-center{
    height: 60px;
-   /*transform: translateY(50%);
-   margin-top: -40px;*/
-   margin-top: 15px;
 }
 .nav, .navbar-nav{
    height: 100%;
 }
 .mar-top5{
-	margin-top:-5px;
+	margin-top:5px;
+}
+.mar-top5>img{
+	height: 48px;
+	width: 48px;
 }
 /*project name*/
 .project-name-wrapper{
@@ -706,7 +708,8 @@ a.dropdown-toggle {
 }
 
 .blocklySvg{
-	width: 60%;
+	width: 58%;
+	box-shadow: 3px 5px 8px #ccc;
 }
 .blocklyZoom{
 	transform:translate(760,200) !important;
@@ -766,9 +769,13 @@ a.dropdown-toggle {
 .dropdown-toggle {
 	padding: 0;
 }
-
-#editView {
+#editView{
+	position: relative;
+	padding: 60px 20px 100px 20px;
+	box-sizing: content-box;
 	background-color: rgba(245, 245, 245, 1);
 }
-
+#blocklyContainer{
+	background-color: rgba(245, 245, 245, 1);
+}
 

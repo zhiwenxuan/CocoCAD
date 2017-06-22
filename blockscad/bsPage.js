@@ -172,7 +172,8 @@ output += '                <!-- <input type="text" id="colorButton"/> -->\n';
 output += '              </div> <!--renderDiv -->\n';
 // output += '\n';
 output += '              <div id="paneContainer">\n';
-output += '                <div id="viewerButtons">\n';
+output += '                <div class="paneButtonWrapper">\n';
+output += '                   <div id="viewerButtons">\n';
 
 output += '                  <div class="btn-group">\n';
 // output += '                    <button id="colorButton" type="button" title="' + Blockscad.Msg.DEFAULT_COLOR_BUTTON + '" class="btn vbut btn-default">\n';
@@ -262,6 +263,7 @@ output += '                  </div>\n';
 output += '                  <div id="render-ongoing">' + Blockscad.Msg.PARSE_IN_PROGRESS + '  <img id=busy src="imgs/busy2.gif"></div>\n';
 output += '                  <div id="error-message"></div>\n';
 output += '                </div>\n';
+output += '                </div> <!-- paneButtonWrapper -->\n';
 output += '              </div> <!-- paneContainer -->\n';
 output += '            </div> <!-- resizable div -->\n';
 
