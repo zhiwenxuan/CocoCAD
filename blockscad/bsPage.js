@@ -181,7 +181,7 @@ output += '                    <input type="text" id="defColor"/>\n';
 output += '                  </div>\n';
 
 output += '                  <div class="btn-group">\n';
-output += '                    <button id="axesButton" type="button" title="' + Blockscad.Msg.AXES_BUTTON + '" class="btn vbut btn-default">\n';
+output += '                    <button id="axesButton" type="button" title="' + Blockscad.Msg.AXES_BUTTON + '" class="btn vbut btn-default flat-butt">\n';
 output += '                      <svg viewbox="0 0 26 26">\n';
 output += '                           <path style="stroke:#777;stroke-width:1.6;fill:none" d="m9 0.5v15h15"/>\n';
 output += '                           <path style="stroke:#777;stroke-width:1.6;fill:none" d="m9 15-9 9"/>\n';
@@ -190,16 +190,16 @@ output += '                    </button>\n';
 output += '                  </div>\n';
 
 output += '                  <div class="btn-group">\n';
-output += '                    <button id="zInButton" type="button" title="' + Blockscad.Msg.ZOOM_IN_BUTTON + '" class="btn vbut btn-default mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent">\n';
-output += '                        <i class="material-icons mdl-color-text--white" style="font-size: 25px">zoom_in</i>'
+output += '                    <button id="zInButton" type="button" title="' + Blockscad.Msg.ZOOM_IN_BUTTON + '" class="btn vbut btn-default">\n';
+output += '                        <i class="material-icons mdl-color-text--grey-600" style="font-size: 25px">zoom_in</i>'
 // output += '                     <svg viewbox="0 0 30 30">\n';
 // output += '                      <circle r="14" style="stroke:#777;stroke-width:1.6;fill:none" cx="15" cy="15"/>\n';
 // output += '                      <path style="stroke:#555;stroke-width:1.6;fill:none" d="m15 8v14"/>\n';
 // output += '                      <path style="stroke:#555;stroke-width:1.6;fill:none" d="m8 15h14"/>\n';
 // output += '                     </svg>\n';
 output += '                    </button>\n';
-output += '                    <button id="zOutButton" type="button" title="' + Blockscad.Msg.ZOOM_OUT_BUTTON + '" class="btn vbut btn-default mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent">\n';
-output += '                        <i class="material-icons mdl-color-text--white" style="font-size: 25px">zoom_out</i>'
+output += '                    <button id="zOutButton" type="button" title="' + Blockscad.Msg.ZOOM_OUT_BUTTON + '" class="btn vbut btn-default">\n';
+output += '                        <i class="material-icons mdl-color-text--grey-600" style="font-size: 25px">zoom_out</i>'
 // output += '                     <svg viewbox="0 0 30 30">\n';
 // output += '                      <circle r="14" style="stroke:#777;stroke-width:1.6;fill:none" cx="15" cy="15"/>\n';
 // output += '                      <path style="stroke:#555;stroke-width:1.6;fill:none" d="m8 15h14"/>\n';

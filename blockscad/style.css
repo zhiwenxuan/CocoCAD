@@ -629,6 +629,9 @@ a.dropdown-toggle {
 .btn:active.focus,
 .btn.active.focus {
 	outline: none;
+	/*box-shadow: none;
+	background-image: none;
+	-webkit-box-shadow: none;*/
 }
 
 #playButton {
@@ -706,14 +709,42 @@ a.dropdown-toggle {
 	left:0 !important;
 }
 
-#renderButton, #zInButton, #zOutButton {
+/*#renderButton, #zInButton, #zOutButton,
+#cameraButton {
 	border-radius: 50%;
 	height: 50px;
 	width: 50px;
 	box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
 }
-#zInButton, #zOutButton {
+#zInButton, #zOutButton, #cameraButton {
 	min-width: 40px;
 	height: 40px;
 	width: 40px;
+}*/
+.btn-default {
+	border: none;
 }
+
+.btn {
+	border-radius: 0;
+	background: white;
+}
+
+#zResetButton {
+	padding: 4px;
+}
+
+#viewerButtons {
+	font-size: 0;
+}
+.sp-replacer {
+	width: 34px;
+	height: 34px;
+}
+
+#viewMenu {
+	border-radius: 0;
+	margin: 0;
+}
+
+
