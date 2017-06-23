@@ -125,10 +125,10 @@ output += '      <a href="#blocklyContainer" data-toggle="pill" id="displayBlock
 output += '      <a href="#openScadPre" data-toggle="pill" id="displayCode">' + Blockscad.Msg.CODE_TAB + '</a>\n';
 
 
-output += '      <button type="button" class="btn btn-default mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent" id="undoButton" style="margin-right: -5px">\n';
+output += '      <button type="button" class="btn btn-default mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--orange" id="undoButton" style="margin-right: -5px">\n';
 output += '         <i class="material-icons mdl-color-text--white" style="font-size: 24px">undo</i>\n';
 output += '      </button>\n';
-output += '      <button type="button" class="btn btn-default btn btn-default mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--accent" id="redoButton" style="margin-right: 20px">\n';
+output += '      <button type="button" class="btn btn-default btn btn-default mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--orange" id="redoButton" style="margin-right: 20px">\n';
 output += '         <i class="material-icons mdl-color-text--white" style="font-size: 24px">redo</i>\n';
 output += '      </button>\n';
 output += '      <button id="trashButton" class="btn btn-default notext mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--red-700" title="' + Blockscad.Msg.MOUSEOVER_TRASHCAN + '">\n';
