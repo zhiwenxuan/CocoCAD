@@ -750,6 +750,11 @@ a.dropdown-toggle {
 	padding: 60px 20px 100px 20px;
 	box-sizing: content-box;
 	background-color: rgba(245, 245, 245, 1);
+	overflow-y: auto;
+	max-height: 375px;
+	overflow-x: auto;
+	max-width: 1235px;
+	width: 100%;
 }
 #blocklyContainer{
 	background-color: rgba(245, 245, 245, 1);
