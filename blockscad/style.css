@@ -799,3 +799,9 @@ a.dropdown-toggle {
 	height: auto;
 	background-color: #fff;
 }
+.navbar-nav>li>a{
+	padding-bottom: 23px;
+}
+.navbar-nav a.first-link{
+	padding-bottom: 9px;
+}
