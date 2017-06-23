@@ -97,12 +97,14 @@ a:active{
 #renderDiv>div{
 	height: 99%;
 }
+
 #renderPane {
 	position: absolute;
-	height: 60px;
-	width: 100%;
-	bottom: 0px;
-	overflow: auto;
+    height: 60px;
+    width: 300px;
+    bottom: 0px;
+    overflow: auto;
+    left: 110px;
 }
 
 .vbut {
