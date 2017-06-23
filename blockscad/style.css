@@ -9,10 +9,7 @@ html, body {
 a{
 	text-decoration: none;
 }
-a:hover{
-	text-decoration: none;
-}
-a:active{
+a:hover,a:visited,a:link{
 	text-decoration: none;
 }
 #main {
@@ -595,10 +592,12 @@ a.dropdown-toggle {
 	background-color: white;
 	border: 1px solid lightgrey;
 	border-bottom: 0;
+	color:#bb5b06;
 }
 #displayCode{
 	transform: translateX(60px);
 	border-bottom: 1px solid lightgrey;
+	color:#333;
 }
 
 #undoButton, #redoButton, #trashButton {

@@ -175,7 +175,7 @@ output += '              <div id="paneContainer">\n';
 
 
 output += '                 <div>\n';
-output += '                  <button type="button" class="btn btn-default btn-lg changeable mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--green" id="renderButton"><i class="material-icons mdl-color-text--white" style="font-size: 30px">play_arrow</i></button>\n';
+output += '                  <button type="button" class="btn btn-default btn-lg changeable mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--green" id="renderButton"><i class="material-icons mdl-color-text--white" style="font-size: 30px;transform: translate(-15px,-12px);">play_arrow</i></button>\n';
 output += '                  <button type="button" class="btn btn-default btn-lg btn-danger " id="abortButton">' + Blockscad.Msg.ABORT_BUTTON + '</button>\n';
 output += '                 </div>\n';
 output += '                <div class="paneButtonWrapper">\n';
