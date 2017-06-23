@@ -95,15 +95,6 @@ a:hover,a:visited,a:link{
 	height: 99%;
 }
 
-#renderPane {
-	position: absolute;
-    height: 60px;
-    width: 300px;
-    bottom: 0px;
-    overflow: auto;
-    left: 110px;
-}
-
 .vbut {
 	padding: 3px;
 	width: 34px;
@@ -119,10 +110,6 @@ a:hover,a:visited,a:link{
 	box-shadow: 3px 5px 8px #ccc;
 	padding: 15px;
 	box-shadow: 3px 5px 18px rgba(0, 0, 0, 0.24);
-}
-.paneButtonWrapper{
-	height: auto;
-	background-color: #fff;
 }
 /*.changeable {
 	display: inline-block;
@@ -774,19 +761,14 @@ a.dropdown-toggle {
     /* border: 1px solid #ccc; */
     z-index: 500;
     /* overflow: auto; */
-    width: 300px;
-    margin: 0 10px 0 10px;
 }
 #viewerDefaults {
 	height: 35px;
     bottom: 59px;
     z-index: 400;
-    width: 300px;
-    margin: 0 15px;
-    text-align: center;
 }
 #viewerButtons, #viewerDefaults {
-	float: right;
+	
 }
 #renderButton, #abortButton {
 	position: absolute;
@@ -802,4 +784,18 @@ a.dropdown-toggle {
 
 .has-error {
 	width: 100%;
+}
+
+#renderPane {
+	position: absolute;
+    height: 60px;
+    width: 300px;
+    bottom: 0px;
+    overflow: auto;
+}
+
+.paneButtonWrapper{
+	margin-left: 25%;
+	height: auto;
+	background-color: #fff;
 }
