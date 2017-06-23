@@ -1298,7 +1298,8 @@ Blockscad.Processor.prototype = {
   
   updateDownloadLink: function() {
     var ext = this.selectedFormatInfo().extension;
-    this.generateOutputFileButton.innerHTML = Blockscad.Msg.GENERATE_STL + " "+ext.toUpperCase();
+    this.generateOutputFileButton.innerHTML = '<i class="material-icons">file_download</i>';
+    // this.generateOutputFileButton.innerHTML = Blockscad.Msg.GENERATE_STL + " "+ext.toUpperCase();
   },
   
   clearViewer: function() {
