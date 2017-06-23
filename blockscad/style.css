@@ -103,22 +103,7 @@ a:active{
 	bottom: 0px;
 	overflow: auto;
 }
-#viewerButtons {
-	position: absolute;
-	height: 35px;
-	width: 100%;
-	bottom: 93px;
-	/*border: 1px solid #ccc;*/
-	z-index: 500;
-	/*overflow: auto;*/
-}
-#viewerDefaults {
-	position: absolute;
-	height: 35px;
-	width: 100%;
-	bottom: 59px;
-	z-index: 400;
-}
+
 .vbut {
 	padding: 3px;
 	width: 34px;
@@ -780,5 +765,21 @@ a.dropdown-toggle {
 }
 #blocklyContainer{
 	background-color: rgba(245, 245, 245, 1);
+}
+
+#viewerButtons {
+	height: 35px;
+	bottom: 93px;
+	/*border: 1px solid #ccc;*/
+	z-index: 500;
+	/*overflow: auto;*/
+}
+#viewerDefaults {
+	height: 35px;
+	bottom: 59px;
+	z-index: 400;
+}
+#viewerButtons, #viewerDefaults {
+	float: right;
 }
 
