@@ -176,6 +176,7 @@ output += '              <div id="paneContainer">\n';
 
 output += '                 <div>\n';
 output += '                  <button type="button" class="btn btn-default btn-lg changeable mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--green" id="renderButton"><i class="material-icons mdl-color-text--white" style="font-size: 30px">play_arrow</i></button>\n';
+output += '                  <button type="button" class="btn btn-default btn-lg btn-danger " id="abortButton">' + Blockscad.Msg.ABORT_BUTTON + '</button>\n';
 output += '                 </div>\n';
 output += '                <div class="paneButtonWrapper">\n';
 output += '                   <div id="viewerButtons">\n';
@@ -261,8 +262,8 @@ output += '                </div>\n';   // end of viewerDefaults div
 
 output += '                <div id="renderPane">\n';
 // output += '                  <button type="button" class="btn btn-default btn-lg changeable mdl-button mdl-js-ripple-effect mdl-js-button mdl-button--fab mdl-color--green" id="renderButton"><i class="material-icons mdl-color-text--white" style="font-size: 30px">play_arrow</i></button>\n';
-output += '                  <button type="button" class="btn btn-default btn-lg btn-danger " id="abortButton">' + Blockscad.Msg.ABORT_BUTTON + '</button>\n';
-output += '                  <div id="stl_buttons" class="pull-right" style="padding:5px 5px;">\n';
+// output += '                  <button type="button" class="btn btn-default btn-lg btn-danger " id="abortButton">' + Blockscad.Msg.ABORT_BUTTON + '</button>\n';
+output += '                  <div id="stl_buttons" style="padding:5px 5px;">\n';
 output += '                    <select id="render-type" style="padding:2px 4px;"></select>\n';
 output += '                    <button type="button" class="btn btn-default btn-lg changeable" id="stlButton">' + Blockscad.Msg.GENERATE_STL + '</button>\n';
 output += '                  </div>\n';

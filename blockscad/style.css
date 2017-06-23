@@ -118,7 +118,7 @@ a:active{
 	overflow: hidden;
 	background-color: #fff;
 	box-shadow: 3px 5px 8px #ccc;
-	padding: 5px;
+	padding: 15px;
 }
 .paneButtonWrapper{
 	height: auto;
@@ -770,17 +770,33 @@ a.dropdown-toggle {
 
 #viewerButtons {
 	height: 35px;
-	bottom: 93px;
-	/*border: 1px solid #ccc;*/
-	z-index: 500;
-	/*overflow: auto;*/
+    bottom: 93px;
+    /* border: 1px solid #ccc; */
+    z-index: 500;
+    /* overflow: auto; */
+    width: 300px;
+    margin: 0 10px 0 10px;
 }
 #viewerDefaults {
 	height: 35px;
-	bottom: 59px;
-	z-index: 400;
+    bottom: 59px;
+    z-index: 400;
+    width: 300px;
+    margin: 0 15px;
+    text-align: center;
 }
 #viewerButtons, #viewerDefaults {
 	float: right;
+}
+#renderButton, #abortButton {
+	position: absolute;
+	left: 30px;
+	top: 15px;
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;	
+	white-space: normal;
+	padding: 2px 6px;
+	border-radius: 50%
 }
 
