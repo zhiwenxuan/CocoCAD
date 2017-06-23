@@ -28,6 +28,8 @@ goog.provide('Blockly.ZoomControls');
 
 goog.require('goog.dom');
 
+//As blocklySvgPercentage changes(to be perfect)
+const blocklySvgPercentage = 0.58;
 
 /**
  * Class for a zoom controls.
@@ -234,8 +236,10 @@ Blockly.ZoomControls.prototype.position = function() {
   if (metrics.toolboxPosition == Blockly.TOOLBOX_AT_BOTTOM) {
     this.top_ -= metrics.flyoutHeight;
   }
-  //fixed the  svgGroup_
-  this.left_ = 720;
+   //fixed the  svgGroup_ by body's width
+  var body_ = document.getElementsByTagName('body');
+  var width = body_[0].offsetWidth;
+  this.left_ = width*blocklySvgPercentage-50;
   this.top_ = 355;
   this.svgGroup_.setAttribute('transform',
       'translate(' + this.left_ + ',' + this.top_ + ')');
