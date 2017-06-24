@@ -693,6 +693,10 @@ a.dropdown-toggle {
 }
 .blocklyToolboxDiv{
 	left:0 !important;
+	background-color: #6DA5E1;
+}
+.blocklyToolboxDiv div{
+	background-color: #6DA5E1 !important;
 }
 .blocklyScrollbarHorizontal{
   display: none;
