@@ -633,14 +633,14 @@ a.dropdown-toggle {
 .nav, .navbar-nav{
    height: 100%;
 }
-.mar-top5{
+/*.mar-top5{
 	margin-top:8px;
 }
 .mar-top5>img{
 	height: 40px;
 	width: 160px;
 	filter: invert(1);
-}
+}*/
 /*project name*/
 .project-name-wrapper{
 	position: relative;
@@ -808,4 +808,16 @@ a.dropdown-toggle {
 }
 .navbar-nav a.first-link{
 	padding-bottom: 9px;
+}
+
+@font-face {
+	font-family: "GT Walsheim Pro Trial";
+	src: url("./font/GT-Walsheim-Pro-Trial-Black.otf");
+}
+
+.mar-top5{
+	margin-top:16px;
+	font-family: "GT Walsheim Pro Trial";
+	color: #fff;
+	font-size: 28px;
 }
