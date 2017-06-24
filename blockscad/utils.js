@@ -9,10 +9,10 @@ var BSUtils = BSUtils || {};
  */
 BSUtils.LANGUAGE_NAME = {
   'en': 'English',
-  'de': 'Deutsch',
-  'fr': 'Français',
-  'zh-hans': '簡體中文',
-   'sl' : 'Slovenščina'
+  // 'de': 'Deutsch',
+  // 'fr': 'Français',
+  // 'sl' : 'Slovenščina',
+  'zh-hans': '繁體中文'
   // 'es': 'Español'
 };
 // BSUtils.LANGUAGE_NAME = {
