@@ -3,7 +3,7 @@ html, body {
     padding: 0;
     height: 100%;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Prompt', sans-serif;
     min-width: 1200px;
 }
 a{
@@ -17,7 +17,8 @@ a:hover,a:visited,a:link{
     z-index: 99;
     height: 100%;
     width: 100%;
-    background: #ffffff; /* Old browsers */
+    /* background: #ffffff; */
+    background-color: rgba(245, 245, 245, 1);
     overflow: hidden;
 }
 
@@ -767,6 +768,7 @@ a.dropdown-toggle {
     /* overflow: auto; */
 }
 #viewerDefaults {
+	padding-top: 10px;
 	height: 35px;
     bottom: 59px;
     z-index: 400;

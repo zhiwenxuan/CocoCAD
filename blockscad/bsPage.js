@@ -23,7 +23,7 @@ output += '  <div id="main">\n';
 output += '    <nav class="navbar" id="top-navigation-bar">\n';
 output += '      <div class="container-fluid">\n';
 output += '      <div class="navbar-center">\n';
-output += '        <a href="#" class="pull-left mar-top5">COCOCAD</a>\n';
+output += '        <a href="#" class="hoverStyle pull-left mar-top5">COCOCAD</a>\n';
 
 output += '        <div class="project-name-wrapper">';
 output += '             <input type="text" id="project-name" class="project-name-input" placeholder="Project name" maxlength="28" style="min-width: 120px;">'
