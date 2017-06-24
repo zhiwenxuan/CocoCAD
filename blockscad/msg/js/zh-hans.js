@@ -42,7 +42,7 @@ Blockscad.Msg.CHANGE_PASSWORD_INSTRUCTIONS = "在更改密码后，BlocksCAD将�
 Blockscad.Msg.CIRCLE = "圆周";
 Blockscad.Msg.CIRCLE_TOOLTIP = "<img src='imgs/en/circle.svg' width='65'>";
 Blockscad.Msg.CLASSIC_COLORS = "经典";
-Blockscad.Msg.CODE_TAB = "OpenSCAD代码";
+Blockscad.Msg.CODE_TAB = "代码";
 Blockscad.Msg.COLOR = "设置颜色";
 Blockscad.Msg.COLOR_HSV_TOOLTIP = "通过色相、饱和度、明度指定颜色。每个参数数值在0到100之间";
 Blockscad.Msg.COLOR_HUE = "色相";
